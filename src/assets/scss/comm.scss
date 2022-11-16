@@ -1,0 +1,38 @@
+$main-color: #15bb5b;
+$auxiliary-color: #fb922b; 
+$bg-color: #f4f4f4; 
+$primary-color: #222222; 
+$level-two-color: #6f7279;
+$level-three-color: #999999; 
+$prompt-color: #bbbbbb; 
+$with-color: #ff632f;
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis1 {
+    @extend .ellipsis;
+    -webkit-line-clamp: 1;
+}
+
+.ellipsis2 {
+    @extend .ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+.clear {
+    clear: both;
+}
+
+.placeholder {
+    font-size: 28px;
+    color: #999;
+}
+
+.btn-hover:hover {
+    opacity: 0.6;
+}
